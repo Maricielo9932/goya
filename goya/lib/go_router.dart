@@ -1,8 +1,9 @@
 import 'home_screen.dart';
 import 'package:go_router/go_router.dart';
 import 'details_screen.dart';
+import 'package:flutter/material.dart';
 
-final GoRouter _router = GoRouter(
+final GoRouter appRouter = GoRouter(
   routes: <RouteBase>[
     GoRoute(
       path: '/',
